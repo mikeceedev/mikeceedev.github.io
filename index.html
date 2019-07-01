@@ -11,10 +11,34 @@
 
         <div class="d-md-flex h-md-100 align-items-center">
             <!-- Logo + Nav Bar-->
-            <div class="fixed-top">...</div>
+            <div class="fixed-top mb-4">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+                    </a>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>
+                </nav>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
             
             <!-- First Half -->
-            <div class="col-md-6 p-0 bg-blue h-md-100">
+            <div class="col-md-6 p-0 mc-pf bg-blue h-md-100 overflow-hidden">
                 <div class="text-white d-md-flex align-items-center h-100 p-5 text-center justify-content-center">
                     <div class="pt-5 pb-5">
                         First half content here
@@ -23,52 +47,87 @@
             </div>
             
             <!-- Second Half -->
-            <div class="col-md-6 p-5 bg-white h-md-100">
-                <div class="align-items-center h-md-100 p-5 justify-content-left">
+            <div class="col-md-6 p-1 bg-white h-md-100">
+                <div class="align-items-center h-md-100 p-5 pb-0 justify-content-left">
                     <h1 class="mb-0 mt-3">MICHAEL COWAN</h1>
                     <h6 class="mt-3 text-blue">FULL-STACK DEVELOPER, GRAPHIC DESIGNER</h6>
                     <p class="mt-4 text-muted">Michael Cowan - alias Mike Cee - is a freelance full-stack web devloper 
-                        and mobile app developer from Manchester, Jamaica. <br>- BSc in Information Communication Technology <br>- Development Stack = PHP7, MYSQL, REDIS, VUE.JS
+                        and mobile app developer from Manchester, Jamaica. <br>-- BSc in ICT | Software Engineering Major <br>-- Dev Stack = PHP7, MYSQL, REDIS, VUE.JS
                         <br></p>
                         <div class="mt-4 mb-5 social-links">
-                            <a href="https://www.google.com"><i class="mr-3 im im-github"></i></a>
+                            <a href="https://github.com/mikeceedev"><i class="mr-3 im im-github"></i></a>
+                            <a href="https://www.google.com"><i class="mr-3 im im-behance"></i></a>
                             <a href="https://www.google.com"><i class="mr-3 im im-instagram"></i></a>
                             <a href="https://www.google.com"><i class="mr-3 im im-twitter"></i></a>
-                            <a href="https://www.google.com"><i class="mr-3 im im-linkedin"></i></a>
                             <a href="https://www.google.com"><i class="mr-3 im im-youtube"></i></a>
                         </div>
-                    <hr>
+
 
                     <!-- Experience Section -->
-                    <h4 class="mt-5 text-blue">MY EXPERIENCE</h4>
-                    <p class="mt-4 text-muted">I have been developing full-stack web applications and designing websites for some of the largest 
-                        coorporations and organizations in Jamaica since I was 16. I have </p>
-                        <div class="d-md-flex col-md-12">
-                            <div class="col-md-6">
-                                <h6>JUICI PATTIES - 1 YR</h6>
-                                <p class="mt-0 text-muted">Web Development, Software Development, Print Design</p>
+                    <hr>
+                    <div>
+                        <h4 class="mt-5 text-blue">EXPERIENCE</h4>
+                        <p class="mt-4 text-muted">I have been developing full-stack web apps and designing websites for some of the largest 
+                            coorporations and organizations in Jamaica since I was 16.</p>
+                        <div class="d-md-flex p-0 col-md-12">
+                            <div class="col-md-6 p-0">
+                                <h6>JUICI PATTIES</h6>
+                                <p class="mt-0 text-muted small">Web Development, Software Development, Print Design</p>
                             </div>
-                            <div class="col-md-6">
-                                <h6>FREELANCE - 2 YRS</h6>
+                            <div class="col-md-6 p-0 offset-md-1">
+                                <h6>STEWY'S GREETINGS</h6>
+                                <p class="mt-0 text-muted small">Product Development, Graphic Design</p>
                             </div>
                         </div>
-                        <div class="d-md-flex col-md-12">
-                            <div class="col-md-6">
-                                <h6>R.A.D.A - 8 MNTHS</h6>
-                                <p class="mt-0 text-muted">Web Development, Print Design</p>
+                        <div class="d-md-flex p-0 col-md-12">
+                            <div class="col-md-6 p-0 ">
+                                <h6>R.A.D.A JAMAICA</h6>
+                                <p class="mt-0 text-muted small">Database Administration, Data Science</p>
                             </div>
-                            <div class="col-md-6">
-                                <h6>FREELANCE - 2 YRS</h6>
+                            <div class="col-md-6 p-0 offset-md-1">
+                                <h6>FREELANCE</h6>
+                                <p class="mt-0 text-muted small">Web Development, Graphic Design, Digital Marketing</p>
                             </div>
                         </div>
-                    <hr>
+                        <a href="resume.pdf" target="_blank" class="mt-2 mb-5 btn btn-purple"><i class="mr-2 im im-save align-middle"></i>View Resume</a>
 
-                    <!-- Side Projects Section -->
-                    <h4 class="mt-5 text-blue">SIDE PROJECTS</h4>
-
+                    </div>
+                    
+                    <!-- Portfolio Section -->
                     <hr>
-                    <h4 class="mt-5 mb-0">HAVE A COOL PROJECT?</h4>
-                    <h4 class="text-blue">MIKECEEDEV@GMAIL.COM</h4>
+                    <div class="mb-5">
+                        <h4 class="mt-5 text-blue">PORTFOLIO</h4>
+                        <p class="mt-4 text-muted">I have been developing full-stack web apps and designing websites for some of the largest 
+                            coorporations and organizations in Jamaica since I was 16.</p>
+
+                        <div class="d-md-flex p-0 col-md-12">
+                            <div class="col-md-6 p-0">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="" alt="Project Bin App">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Development</h5>
+                                        <a href="https://github.com/mikeceedev" class="btn btn-purple">View Repos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-0">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Graphic Design</h5>
+                                        <a href="#" class="btn btn-purple">View Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Section -->
+                    <div>
+                        <hr>
+                        <h4 class="mt-5 mb-0">HAVE A COOL PROJECT?</h4>
+                        <a href="mailto:mikeceedev@gmail.com" class="btn btn-purple btn-lg mb-5 mt-2" data-toggle="tooltip" data-placement="right" title="Opens New Window">mikeceedev@gmail.com</a>
+                    </div>
 
                 </div>
             </div>
@@ -78,5 +137,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script.js" type="text/javascript"></script>
     </body>
 </html>
