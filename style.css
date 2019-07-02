@@ -30,3 +30,42 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
 .modal-header {
     border-bottom: none;
 }
+
+.pulse-online {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #01d401;
+	cursor: pointer;
+	animation: pulse 1.5s infinite;
+}
+.pulse-online:hover {
+	animation: none;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgb(0, 148, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 8px rgb(0, 148, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgb(0, 148, 0);
+	}
+}
+@keyframes pulse {
+	0% {
+		-moz-box-shadow: 0 0 0 0 rgba(0, 148, 0, 0.4);
+		box-shadow: 0 0 0 0 rgba(0, 148, 0, 0.4);
+	}
+	70% {
+		-moz-box-shadow: 0 0 0 8px rgba(0, 148, 0, 0);
+		box-shadow: 0 0 0 8px rgba(0, 148, 0, 0);
+	}
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(0, 148, 0, 0);
+		box-shadow: 0 0 0 0 rgba(0, 148, 0, 0);
+	}
+}
