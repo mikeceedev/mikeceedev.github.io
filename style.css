@@ -1,7 +1,5 @@
 @media only screen and (min-width: 768px) {
-    .h-md-100 { height: 141vh; }
-    .mike-info { padding-top: 5rem; }
-    .mike-photo { padding-top: 3rem; }
+    .h-md-100 { height: 145vh; }
     .signature { margin-bottom: 3rem; }
 }
 
@@ -26,8 +24,6 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
     background-position: center; 
  
 }
-
-background: #673AB7;
 
 /* ONLINE STATUS INDICATOR */
 .pulse-online {
