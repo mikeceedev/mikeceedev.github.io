@@ -3,7 +3,7 @@
     .signature { margin-bottom: 3rem; }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 768px) {
     .modal-dialog {
         max-width: 800px;
         margin: 1.75rem auto;
@@ -26,7 +26,7 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
 }
 .modal-header { border-bottom: none; }
 .mike-photo {
-    background-image: url("http://bomby.themes.tvda.pw/wp-content/uploads/2018/06/image15.jpg?id=2821");
+    background-image: url("https://bomby.themes.tvda.pw/wp-content/uploads/2018/06/image15.jpg?id=2821");
     background-repeat: no-repeat;
     background-position: center; 
  
