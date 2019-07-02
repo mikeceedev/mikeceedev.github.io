@@ -1,10 +1,11 @@
-@media (min-width: 768px) {
-    .h-md-100 { height: 140vh; }
-    .mike-info { margin-top: 3rem; }
+@media only screen and (min-width: 768px) {
+    .h-md-100 { height: 141vh; }
+    .mike-info { padding-top: 5rem; }
+    .mike-photo { padding-top: 3rem; }
     .signature { margin-bottom: 3rem; }
 }
 
-body { font-family: 'Work Sans', sans-serif; font-weight: 400; }   
+body { font-family: 'Work Sans', sans-serif; font-weight: 400; overflow-x:hidden; }   
 h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2.2rem; }
 h4 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
 h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
@@ -18,15 +19,15 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
 .social-links > a:hover { color: #9C27B0; }
 .card-image-top { width: 100%; height: 100px;
 }
-.mc-pf {
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-position: center; 
-}
 .modal-header { border-bottom: none; }
 .mike-photo {
-    background: #673AB7;
+    background-image: url("http://bomby.themes.tvda.pw/wp-content/uploads/2018/06/image15.jpg?id=2821");
+    background-repeat: no-repeat;
+    background-position: center; 
+ 
 }
+
+background: #673AB7;
 
 /* ONLINE STATUS INDICATOR */
 .pulse-online {
