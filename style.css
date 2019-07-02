@@ -1,6 +1,13 @@
 @media only screen and (min-width: 768px) {
-    .h-md-100 { height: 145vh; }
+    /*.h-md-100 { height: 145vh; } */
     .signature { margin-bottom: 3rem; }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .mike-photo {
+		height: 50vh;
+		background-position: top !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -8,6 +15,10 @@
         max-width: 800px;
         margin: 1.75rem auto;
     }
+}
+html, body {
+	height: 100%;
+	margin: 0px;
 }
 
 body { font-family: 'Work Sans', sans-serif; font-weight: 400; overflow-x:hidden; }   
@@ -26,10 +37,10 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
 }
 .modal-header { border-bottom: none; }
 .mike-photo {
-    background-image: url("https://bomby.themes.tvda.pw/wp-content/uploads/2018/06/image15.jpg?id=2821");
+ 	background-image: url("https://bomby.themes.tvda.pw/wp-content/uploads/2018/06/image15.jpg?id=2821");
     background-repeat: no-repeat;
-    background-position: center; 
- 
+	background-position: center; 
+	/* background: red; */
 }
 
 /* ONLINE STATUS INDICATOR */
