@@ -24,6 +24,9 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
     background-position: center; 
 }
 .modal-header { border-bottom: none; }
+.mike-photo {
+    background: #673AB7;
+}
 
 /* ONLINE STATUS INDICATOR */
 .pulse-online {
