@@ -3,6 +3,13 @@
     .signature { margin-bottom: 3rem; }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+}
+
 body { font-family: 'Work Sans', sans-serif; font-weight: 400; overflow-x:hidden; }   
 h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2.2rem; }
 h4 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
