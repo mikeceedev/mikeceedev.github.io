@@ -14,7 +14,9 @@
     .modal-dialog {
         max-width: 800px;
         margin: 1.75rem auto;
-    }
+	}
+	.my-name { margin-top: 1em !important; }
+	
 }
 html, body {
 	height: 100%;
