@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
     .h-md-100 { height: 140vh; }
+    .mike-info { margin-top: 3rem; }
 }
 
 body { font-family: 'Work Sans', sans-serif; font-weight: 400; }   
@@ -20,9 +21,12 @@ h6 { font-family: 'Work Sans', sans-serif; font-weight: 700; }
     height: 100px;
 }
 
-.mc-pf{
+.mc-pf {
     background-image: url("");
     background-repeat: no-repeat;
     background-position: center; 
 }
 
+.modal-header {
+    border-bottom: none;
+}
