@@ -1,2 +1,2 @@
 # Mike Cee Dev
-Michael Cowan - Fullstack Engineer, Graphic Designer
+Michael Cowan - Fullstack Web Developer, Web Designer
